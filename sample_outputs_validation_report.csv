@@ -1,0 +1,10 @@
+test_id,input,expected,predicted,confidence,condition,passed
+1,play music,play music,play music,0.9,clear English input,True
+2,navigate to office,navigate to,navigate to,0.9,valid English command,True
+3,play music in noise,play music,play music,0.9,noisy English input,True
+4,invalid command,unknown,unknown,0.1,invalid English input,True
+5,call contact now,call contact,call contact,0.9,extended English input,True
+6,spiele musik,play music,unknown,0.1,clear German input,False
+7,navegar a casa,navigate to,unknown,0.1,clear Spanish input,False
+8,play music with accent,play music,play music,0.9,accented English input,True
+9,low quality stop,stop,stop,0.9,low-quality audio input,True

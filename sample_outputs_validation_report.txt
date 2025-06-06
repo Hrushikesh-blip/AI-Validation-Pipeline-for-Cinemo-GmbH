@@ -1,0 +1,14 @@
+2025-06-07 01:15:00,123 - INFO - Test ID 1: Condition=clear English input, Passed=True, Input=play music, Predicted=play music, Confidence=0.9
+2025-06-07 01:15:00,124 - INFO - Test ID 2: Condition=valid English command, Passed=True, Input=navigate to office, Predicted=navigate to, Confidence=0.9
+2025-06-07 01:15:00,125 - INFO - Test ID 3: Condition=noisy English input, Passed=True, Input=play music in noise, Predicted=play music, Confidence=0.9
+2025-06-07 01:15:00,126 - INFO - Test ID 4: Condition=invalid English input, Passed=True, Input=invalid command, Predicted=unknown, Confidence=0.1
+2025-06-07 01:15:00,127 - INFO - Test ID 5: Condition=extended English input, Passed=True, Input=call contact now, Predicted=call contact, Confidence=0.9
+2025-06-07 01:15:00,128 - INFO - Test ID 6: Condition=clear German input, Passed=False, Input=spiele musik, Predicted=unknown, Confidence=0.1
+2025-06-07 01:15:00,129 - INFO - Test ID 7: Condition=clear Spanish input, Passed=False, Input=navegar a casa, Predicted=unknown, Confidence=0.1
+2025-06-07 01:15:00,130 - INFO - Test ID 8: Condition=accented English input, Passed=True, Input=play music with accent, Predicted=play music, Confidence=0.9
+2025-06-07 01:15:00,131 - INFO - Test ID 9: Condition=low-quality audio input, Passed=True, Input=low quality stop, Predicted=stop, Confidence=0.9
+2025-06-07 01:15:00,132 - INFO - Validation Report - 2025-06-07 01:15:00.132
+Total Tests: 9
+Pass Rate: 77.78%
+Failed Tests: 2
+Model Used: Mock
